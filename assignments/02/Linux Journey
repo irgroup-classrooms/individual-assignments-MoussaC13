@@ -1,0 +1,485 @@
+
+Maste@Laptop-Moussa MINGW64 ~
+$ echo Hello World
+Hello World
+
+Maste@Laptop-Moussa MINGW64 ~
+$ pwd
+/c/Users/Maste
+
+Maste@Laptop-Moussa MINGW64 ~
+$ cd Desktop
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ ls -r
+ desktop.ini                            'Microsoft Edge.lnk'*
+ bild-db/                                MIDOSThesaurus.lnk*
+ Suii.jpg                               'MIDOS 6.lnk'*
+'SQL Server Management Studio 20.lnk'*   Bewerbungspfotos.JPG
+'MySQL Workbench 8.0 CE.lnk'*           'Azure Data Studio.lnk'*
+ MusaMeinBruder.sql                     'Anaconda Navigator.lnk'*
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ ls -R
+.:
+'Anaconda Navigator.lnk'*   MusaMeinBruder.sql
+'Azure Data Studio.lnk'*   'MySQL Workbench 8.0 CE.lnk'*
+ Bewerbungspfotos.JPG      'SQL Server Management Studio 20.lnk'*
+'MIDOS 6.lnk'*              Suii.jpg
+ MIDOSThesaurus.lnk*        bild-db/
+'Microsoft Edge.lnk'*       desktop.ini
+
+./bild-db:
+'02@.VRW'   30.mth        BILD-DB.idx   BILD-DB.~tm    MWEDIAKT.INI
+'02@.WTX'   BILD-DB.CTR   BILD-DB.tmp   MIAUSART       bilder/
+ 20.mth     BILD-DB.DBM   BILD-DB.~ib   MIAUSART.BAK   m2tabedi.ini
+ 25.mth     BILD-DB.bak   BILD-DB.~id   MISCHABS       mwedi.ini
+
+./bild-db/bilder:
+1242858750_5f718662b7_o.jpg  3376428742_8aebc0273f_o.jpg
+130748375_8ce958d08e_o.jpg   3504069714_a4c1629d13_o.jpg
+1475422121_57f5ec44ee_o.jpg  357539533_45585e7909_o.jpg
+1735182987_173923nv5x_f.jpg  3606251363_60c9b06fb4_o.jpg
+185704591_b34b04f4d5_o.jpg   3606254367_84d4fed1da_o.jpg
+2378158239_267345st7w_u.jpg  3619902128_236552bc0c_o.jpg
+2388203088_7a4528820d_b.jpg  3842821658_1015e42a1e_o.jpg
+2403848609_2ebf3e213d_o.jpg  3859525046_f6c3c07686_o.jpg
+2404475005_ee4eede24a_o.jpg  3879269222_6e707e66ec_b.jpg
+2404546005_f97cc7bf6d_o.jpg  3925206993_8aebbfed25_o.jpg
+2434550412_97e6265d16_o.jpg  3950246306_a1ab450121_o.jpg
+2443378278_c7105366e6_o.jpg  3999582960_02ffceab4d_o.jpg
+2534261204_44807ce6af_z.jpg  4154158708_1c8128d4a7_o.jpg
+2562614982_49aa278f67_o.jpg  4174585582_dde0a39c70_o.jpg
+256763645_679bfff00a_o.jpg   4222228276_eb37137816_o.jpg
+2617268600_cc0e392da4_o.jpg  4225987216_a474c35367_o.jpg
+2618318581_e50cbea5cb_o.jpg  4235161353_4f86710785_o.jpg
+2681798403_7477879318_o.jpg  430549605_1f8c37323a_o.jpg
+2823126270_7fe14eb50c_o.jpg  526266790_aab58d4eb5_o.jpg
+2832273633_310fcbd31b_o.jpg  6359547263_877373df4r_u.jpg
+2911101731_1943d7a869_o.jpg  73471268_273ae2aa86_o.jpg
+2931435335_321d9ab32c_b.jpg  7364826173_826158az3p_q.jpg
+2946926348_1f1b69550a_o.jpg  8463859483_847328hg9k_o.jpg
+3222231417_86630c253f_o.jpg  93557989_ddc43ef7e1_o.jpg
+3248210322_b11f1e19d4_o.jpg  96179424_1a335c8c1d_o.jpg
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ ls -t
+ Suii.jpg               MIDOSThesaurus.lnk*
+ bild-db/               Bewerbungspfotos.JPG
+ MusaMeinBruder.sql    'MySQL Workbench 8.0 CE.lnk'*
+'Microsoft Edge.lnk'*  'Azure Data Studio.lnk'*
+ desktop.ini           'SQL Server Management Studio 20.lnk'*
+'MIDOS 6.lnk'*         'Anaconda Navigator.lnk'*
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ pwd
+/c/Users/Maste/Desktop
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ touch myfile2
+touch: cannot touch 'myfile2': No such file or directory
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ pwd
+/c/Users/Maste/Desktop
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ touch myfilee
+touch: cannot touch 'myfilee': No such file or directory
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ cd ..
+
+Maste@Laptop-Moussa MINGW64 ~
+$ touch myfilee
+
+Maste@Laptop-Moussa MINGW64 ~
+$ ls-l
+bash: ls-l: command not found
+
+Maste@Laptop-Moussa MINGW64 ~
+$ ls -l
+total 20926
+lrwxrwxrwx 1 Maste 197609       30 Oct 20 23:27  Anwendungsdaten -> /c/Users/Maste/AppData/Roaming/
+drwxr-xr-x 1 Maste 197609        0 Oct 20 23:28  AppData/
+-rw-r--r-- 1 Maste 197609        0 Oct 23 17:42  C:UsersMasteDesktop
+-rw-r--r-- 1 Maste 197609        0 Oct 23 17:43  CUsersMasteDesktop
+drwxr-xr-x 1 Maste 197609        0 Oct 22 08:01  Contacts/
+lrwxrwxrwx 1 Maste 197609       58 Oct 20 23:27  Cookies -> /c/Users/Maste/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 Maste 197609        0 Oct 23 16:41  Desktop/
+drwxr-xr-x 1 Maste 197609        0 Oct 22 08:01  Documents/
+drwxr-xr-x 1 Maste 197609        0 Oct 23 17:13  Downloads/
+lrwxrwxrwx 1 Maste 197609       66 Oct 20 23:27  Druckumgebung -> '/c/Users/Maste/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 Maste 197609       24 Oct 20 23:27 'Eigene Dateien' -> /c/Users/Maste/Documents/
+drwxr-xr-x 1 Maste 197609        0 Oct 22 08:01  Favorites/
+drwxr-xr-x 1 Maste 197609        0 Oct 22 08:01  Links/
+lrwxrwxrwx 1 Maste 197609       28 Oct 20 23:27 'Lokale Einstellungen' -> /c/Users/Maste/AppData/Local/
+drwxr-xr-x 1 Maste 197609        0 May 12 20:27  Microsoft/
+drwxr-xr-x 1 Maste 197609        0 Oct 22 08:01  Music/
+-rw-r--r-- 1 Maste 197609 15728640 Oct 22 21:06  NTUSER.DAT
+-rw-r--r-- 1 Maste 197609    65536 Oct 20 23:27  NTUSER.DAT{2ea4654e-8f32-11ef-af39-a4009f12d19b}.TM.blf
+-rw-r--r-- 1 Maste 197609   524288 Oct 20 23:27  NTUSER.DAT{2ea4654e-8f32-11ef-af39-a4009f12d19b}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 Maste 197609   524288 Oct 20 23:27  NTUSER.DAT{2ea4654e-8f32-11ef-af39-a4009f12d19b}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 Maste 197609       66 Oct 20 23:27  Netzwerkumgebung -> '/c/Users/Maste/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 Maste 197609        0 Oct 23 15:38  OneDrive/
+drwxr-xr-x 1 Maste 197609        0 Sep 14 13:16  Oracle/
+drwxr-xr-x 1 Maste 197609        0 Oct 22 08:01  Pictures/
+lrwxrwxrwx 1 Maste 197609       55 Oct 20 23:27  Recent -> /c/Users/Maste/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 Maste 197609        0 Oct 22 08:01 'Saved Games'/
+drwxr-xr-x 1 Maste 197609        0 Oct 22 08:01  Searches/
+lrwxrwxrwx 1 Maste 197609       55 Oct 20 23:27  SendTo -> /c/Users/Maste/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 Maste 197609       59 Oct 20 23:27  Startmenü -> '/c/Users/Maste/AppData/Roaming/Microsoft/Windows/Start Menu'/
+-rw-r--r-- 1 Maste 197609       72 May 31 18:06  Untitled.ipynb
+-rw-r--r-- 1 Maste 197609      617 May 31 18:08  Untitled1.ipynb
+drwxr-xr-x 1 Maste 197609        0 Oct 22 08:01  Videos/
+lrwxrwxrwx 1 Maste 197609       58 Oct 20 23:27  Vorlagen -> /c/Users/Maste/AppData/Roaming/Microsoft/Windows/Templates/
+-rw-r--r-- 1 Maste 197609        0 Oct 23 17:58  myfilee
+-rw-r--r-- 1 Maste 197609        0 Oct 23 17:25  mynewfile
+-rw-r--r-- 1 Maste 197609  2850816 Oct 20 23:27  ntuser.dat.LOG1
+-rw-r--r-- 1 Maste 197609  1703936 Oct 20 23:27  ntuser.dat.LOG2
+-rw-r--r-- 1 Maste 197609       20 Oct 22 08:01  ntuser.ini
+
+Maste@Laptop-Moussa MINGW64 ~
+$ file myfilee
+myfilee: empty
+
+Maste@Laptop-Moussa MINGW64 ~
+$ file mynewfile
+mynewfile: empty
+
+Maste@Laptop-Moussa MINGW64 ~
+$ cat myfilee
+
+Maste@Laptop-Moussa MINGW64 ~
+$ less -G myfilee
+
+Maste@Laptop-Moussa MINGW64 ~
+$ less -q myfilee
+
+Maste@Laptop-Moussa MINGW64 ~
+$ history
+    1  whoami
+    2  ls -a
+    3  exit
+    4  echo Hello World
+    5  pwd
+    6  cd Desktop
+    7  ls -r
+    8  ls -R
+    9  ls -t
+   10  pwd
+   11  touch myfile2
+   12  pwd
+   13  touch myfilee
+   14  cd ..
+   15  touch myfilee
+   16  ls-l
+   17  ls -l
+   18  file myfilee
+   19  file mynewfile
+   20  cat myfilee
+   21  less -G myfilee
+   22  less -q myfilee
+   23  history
+
+Maste@Laptop-Moussa MINGW64 ~
+$ cp myfilee C:/Users/Maste/Desktop
+
+Maste@Laptop-Moussa MINGW64 ~
+$ pwd
+/c/Users/Maste
+
+Maste@Laptop-Moussa MINGW64 ~
+$ cd Desktop
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ pwd
+/c/Users/Maste/Desktop
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ mv myfilee myfile
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ mv myfile test
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ pwd
+/c/Users/Maste/Desktop
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ mkdir DataModel
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ mv myfile2 DataModel
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ pwd
+/c/Users/Maste/Desktop
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ touch -file
+touch: unknown option -- i
+Try 'touch --help' for more information.
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ touch "-file"
+touch: unknown option -- i
+Try 'touch --help' for more information.
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ touch minusfile
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ rm minusfile
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ find net
+find: ‘net’: No such file or directory
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ find -net
+find: unknown predicate `-net'
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ find net
+net
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ find Netflix
+find: ‘Netflix’: No such file or directory
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ history
+    1  whoami
+    2  ls -a
+    3  exit
+    4  echo Hello World
+    5  pwd
+    6  cd Desktop
+    7  ls -r
+    8  ls -R
+    9  ls -t
+   10  pwd
+   11  touch myfile2
+   12  pwd
+   13  touch myfilee
+   14  cd ..
+   15  touch myfilee
+   16  ls-l
+   17  ls -l
+   18  file myfilee
+   19  file mynewfile
+   20  cat myfilee
+   21  less -G myfilee
+   22  less -q myfilee
+   23  history
+   24  cp myfilee C:/Users/Maste/Desktop
+   25  pwd
+   26  cd Desktop
+   27  pwd
+   28  mv myfilee myfile
+   29  mv myfile test
+   30  pwd
+   31  mkdir DataModel
+   32  mv myfile2 DataModel
+   33  pwd
+   34  touch -file
+   35  touch "-file"
+   36  touch minusfile
+   37  rm minusfile
+   38  find net
+   39  find -net
+   40  find net
+   41  find Netflix
+   42  history
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ find Netfilx
+Netfilx
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ help
+GNU bash, version 5.2.37(1)-release (x86_64-pc-msys)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec | -n signum | -sigs>
+ [ arg... ]                              let arg [arg ...]
+ [[ expression ]]                        local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]          logout [n]
+ bg [job_spec ...]                       mapfile [-d delim] [-n count] [-O or>
+ bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
+ break [n]                               printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
+ caller [expr]                           pwd [-LPW]
+ case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
+ cd [-L|[-P [-e]] [-@]] [dir]            readarray [-d delim] [-n count] [-O >
+ command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
+ compgen [-abcdefgjksuv] [-o option] [>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DEI]>  select NAME [in WORDS ... ;] do COMM>
+ compopt [-o|+o option] [-DEI] [name .>  set [-abefhkmnptuvxBCEHPT] [-o optio>
+ continue [n]                            shift [n]
+ coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgiIlnrtux] [name[=value>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                  suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid >  test [expr]
+ echo [-neE] [arg ...]                   time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [na>  times
+ eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argume>  true
+ exit [n]                                type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgiIlnrtux] name[=value>
+ false                                   ulimit [-SHabcdefiklmnpqrstuvxPRT] [>
+ fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
+ fg [job_spec]                           unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS-2; done
+ function name { COMMANDS ; } or name >  variables - Names and meanings of so>
+ getopts optstring name [arg ...]        wait [-fn] [-p var] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS-2; done
+ help [-dms] [pattern ...]               { COMMANDS ; }
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ pwd
+/c/Users/Maste/Desktop
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ help echo
+echo: echo [-neE] [arg ...]
+    Write arguments to the standard output.
+
+    Display the ARGs, separated by a single space character and followed by a
+    newline, on the standard output.
+
+    Options:
+      -n        do not append a newline
+      -e        enable interpretation of the following backslash escapes
+      -E        explicitly suppress interpretation of backslash escapes
+
+    `echo' interprets the following backslash-escaped characters:
+      \a        alert (bell)
+      \b        backspace
+      \c        suppress further output
+      \e        escape character
+      \E        escape character
+      \f        form feed
+      \n        new line
+      \r        carriage return
+      \t        horizontal tab
+      \v        vertical tab
+      \\        backslash
+      \0nnn     the character whose ASCII code is NNN (octal).  NNN can be
+                0 to 3 octal digits
+      \xHH      the eight-bit character whose value is HH (hexadecimal).  HH
+                can be one or two hex digits
+      \uHHHH    the Unicode character whose value is the hexadecimal value HHHH.
+                HHHH can be one to four hex digits.
+      \UHHHHHHHH the Unicode character whose value is the hexadecimal value
+                HHHHHHHH. HHHHHHHH can be one to eight hex digits.
+
+    Exit Status:
+    Returns success unless a write error occurs.
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ help logout
+logout: logout [n]
+    Exit a login shell.
+
+    Exits a login shell with exit status N.  Returns an error if not executed
+    in a login shell.
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ help pwd
+pwd: pwd [-LPW]
+    Print the name of the current working directory.
+
+    Options:
+      -L        print the value of $PWD if it names the current working
+                directory
+      -P        print the physical directory, without any symbolic links
+      -W        print the Win32 value of the physical directory
+
+    By default, `pwd' behaves as if `-L' were specified.
+
+    Exit Status:
+    Returns 0 unless an invalid option is given or the current directory
+    cannot be read.
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ man ls
+bash: man: command not found
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ man Is
+bash: man: command not found
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ ls
+'Anaconda Navigator.lnk'*  'Microsoft Edge.lnk'*                    Suii.jpg
+'Azure Data Studio.lnk'*    MusaMeinBruder.sql                      bild-db/
+ Bewerbungspfotos.JPG      'MySQL Workbench 8.0 CE.lnk'*            desktop.ini
+ DataModel/                 Net                                     test/
+'MIDOS 6.lnk'*              Netfilx
+ MIDOSThesaurus.lnk*       'SQL Server Management Studio 20.lnk'*
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ man ls
+bash: man: command not found
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ man pwd
+bash: man: command not found
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ whatis net
+bash: whatis: command not found
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ whatsis cat
+bash: whatsis: command not found
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ whatis pwd
+bash: whatis: command not found
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ whatis less
+bash: whatis: command not found
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ alias pwd = 'Hi'
+bash: alias: pwd: not found
+bash: alias: =: not found
+bash: alias: Hi: not found
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ alias pwd = Hi
+bash: alias: pwd: not found
+bash: alias: =: not found
+bash: alias: Hi: not found
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ History
+bash: History: command not found
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ History
+bash: History: command not found
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ pwd
+/c/Users/Maste/Desktop
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$ History
+bash: History: command not found
+
+Maste@Laptop-Moussa MINGW64 ~/Desktop
+$
