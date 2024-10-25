@@ -1,0 +1,105 @@
+ 106  cd Documents/Bildung/Studium/Data\ \&\ Information\ Science\ \(B.Sc.\)/Datenmodellierung/Bashcrawl\ Game\ 2/entrance/
+  107  pwd
+  108  cat scroll
+  109  ls -a
+  110  ls
+  111  cd cellar/
+  112  ls -a
+  113  # Ich habe den die Schatzkammer gefunden "treasure"
+  114  cd entrance
+  115  cd ..
+  116  ls -a
+  117  cd .chapel/
+  118  ls -a
+  119  cd courtyard/
+  120  ls -a
+  121  cd aviary/
+  122  ls -a
+  123  # Ich habe einen Kristal gefunden
+  124  cd hall/
+  125  ls -a
+  126  # Hier sind Monster also gehe ich schnell zurück
+  127  cd ..
+  128  cd ..
+  129  cd ..
+  130  cd ..
+  131  ls -a
+  132  cd .rift/
+  133  ls -a
+  134  cd arena/
+  135  ls -a
+  136  cd pit/
+  137  ls -a
+  138  scrill wizard-light
+  139  cat scroll wizard-light
+  140  /.wizard-light
+  141  cd..
+  142  cd ..
+  143  cd ..
+  144  cd ..
+  145  ls -a
+  146  cd cellar/
+  147  ls -a
+  148  cat scroll treasure
+  149  cd ..
+  150  ls -a
+  151  cd cellar/
+  152  cd armoury/
+  153  ls -a
+  154  cat scroll treasure
+  155  cat scroll
+  156  cd ..
+  157  ./treasure
+  158  export I=amulet,$
+  159  echo $I
+  160  cd armoury/
+  161  ls -a
+  162  ./treasure
+  163  export I=sword, $I
+  164  export I=sword,$I
+  165  echo $I
+  166  ls -a
+  167  ./potion
+  168  export HP=15
+  169  echo $HP
+  170  cd chamber/
+  171  ls -a
+  172  ./treasure
+  173  export I=coins,$I
+  174  echo $I
+  175  ./statue
+  176  ./spell
+  177  cd ..
+  178  cd ..
+  179  cd ..
+  180  ls -a
+  181  cd .rift/
+  182  ls -a
+  183  ./box +
+  184  cd arena/
+  185  ls -a
+  186  cd pit/
+  187  ls -a
+  188  ./wizard-light
+  189  ./nyarlathotep
+  190  ./drummer
+  191  cd ..
+  192  cd ..
+  193  cd ..
+  194  ls -a
+  195  cd chapel/
+  196  ls -a
+  197  ./altar
+  198  cd courtyard/
+  199  ls -a
+  200  ./fountain
+  201  ./rags
+  202  cd aviary/
+  203  ls -a
+  204  ./crystal
+  205  I=crystal,$I
+  206  echo $I
+  207  cd hall/
+  208  ls -a
+  209  cd library/
+  210  ls -a
