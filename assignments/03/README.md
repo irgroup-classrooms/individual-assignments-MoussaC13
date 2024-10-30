@@ -8,7 +8,7 @@
 4. Save the screenshot on your machine to this working directory.
 5. On the command line:
   * navigate to the repository 
-  * check your git status
+  * check your git status.
   * add the new file to git
   * and commit the change.
   * Finally, push your changes to the remote repository.
