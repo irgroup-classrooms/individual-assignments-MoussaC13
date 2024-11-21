@@ -25,3 +25,16 @@
       - ., hintereinander
       - Mehr als 3 Punkte hintereinander
       - usw.
+  -------------
+  # Analyse der Daten
+  1. ***Total number of lines:***
+    total_lines=$(tail -n +2 lotr_scripts.csv | wc -l)
+    echo "Total number of lines: $total_lines"
+  2. ***unique words used in the dialogs:***
+    unique_words=$(awk -F ',' '{print $2}' lotr_scripts.csv | tr '[:upper:]' '[:lower:]' | tr -d '[:punct:]' | tr ' ' '\n' | sort | uniq | wc l) echo "Total number of unique words in dialogs: $unique_words"
+  3. ***What is the distribution on the three different films?***
+  awk -F ',' '{print $3}' lotr_scripts.csv | sort | uniq -c
+  4. ***What are the top 5 characters in the char column?***
+  awk -F ',' '{print $1}' lotr_scripts.csv | sort | uniq -c | sort -nr | head -n 5
+  5. ***What are the top 5 characters in the dialogues?***
+  awk -F ',' '{print $1}' lotr_scripts.csv | sort | uniq -c | sort -nr | head -n 5
